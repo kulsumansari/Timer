@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../images/clock.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input[type=text]{
+    width: 67px;
+    height: 60px;
+    font-size: 3rem;
+    text-align: center; 
+}
+#hour,#minute,#second{
+    background-color:bisque;
+    padding: 5px 10px;
+    font-size: 6rem;
+}
+.colon{
+    font-size: 3.5rem;
+    padding:5px;
+    font-weight: bolder;
+}
+.center{
+    margin: 200px auto;
+    text-align: center;
+}
+
