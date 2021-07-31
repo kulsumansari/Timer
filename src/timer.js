@@ -15,6 +15,7 @@ const start=()=> {
     clearInterval(duration)
     if(paused===true){
         Resume();
+        paused= !paused;
     }else{
         let hr=  parseInt(txtHrs.value) || 0;
         let min= parseInt(txtMins.value) || 0;
